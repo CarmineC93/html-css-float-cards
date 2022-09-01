@@ -13,21 +13,81 @@ html{
 
 /* MAIN */
 
-/* title */
+/* main title */
 .container{
     padding: 2rem 6rem ;
 }
 
 .main-title{
+    font-size: 3rem;
     color: #E53170;
     text-align: center;
     font-weight: 700;
     margin-bottom: 1.5em;
+    
 }
 
 /* paragraph */
 
 .introduction{
+    font-size: 1.5rem;
     text-align: center;
-    font-weight: 100;
+    font-weight: 500;
+}
+
+/* gallery team */
+
+.row{
+    margin: 1.5rem 0;
+    
+}
+
+.col:nth-of-type(3n+3){
+    margin-right: 0;
+}
+
+.col:nth-of-type(3n+1){
+    margin-left: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+.col{
+    background-color: #0F0E17;
+    color: white;
+    margin: 30px 20px;
+    width: calc(100% / 3 - 27px); /* importanti gli spazi tra operatore e numeri */
+    float: left; 
+} 
+
+.col img{
+    width: 150px;
+}
+
+.col .infos{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.infos .name{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: .8em 0.5em 0.3em;
+}
+
+.infos .role{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0.3em 0.5em;
+}
+
+.infos .mail{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #00CCF2;
+    padding: 0.3em 0.5em;
 }
