@@ -15,11 +15,11 @@ html{
 
 /* main title */
 .container{
-    padding: 2rem 6rem ;
+    padding: 2rem 20rem ;
 }
 
 .main-title{
-    font-size: 3rem;
+    font-size: 2rem;
     color: #E53170;
     text-align: center;
     font-weight: 700;
@@ -30,7 +30,7 @@ html{
 /* paragraph */
 
 .introduction{
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
     font-weight: 500;
 }
@@ -42,6 +42,7 @@ html{
     
 }
 
+/* to delete margin rx sx in the gallery*/
 .col:nth-of-type(3n+3){
     margin-right: 0;
 }
@@ -59,13 +60,13 @@ html{
 .col{
     background-color: #0F0E17;
     color: white;
-    margin: 30px 20px;
+    margin: 20px 20px;
     width: calc(100% / 3 - 27px); /* importanti gli spazi tra operatore e numeri */
     float: left; 
 } 
 
 .col img{
-    width: 150px;
+    width: 80px;
 }
 
 .col .infos{
@@ -74,20 +75,20 @@ html{
 }
 
 .infos .name{
-    font-size: 1.3rem;
+    font-size: .9rem;
     font-weight: 600;
-    padding: .8em 0.5em 0.3em;
+    padding: .6em 0.5em 0.2em;
 }
 
 .infos .role{
-    font-size: 1.2rem;
+    font-size: .8rem;
     font-weight: 400;
-    padding: 0.3em 0.5em;
+    padding: 0.2em 0.5em;
 }
 
 .infos .mail{
-    font-size: 1.2rem;
+    font-size: .8rem;
     font-weight: 400;
     color: #00CCF2;
-    padding: 0.3em 0.5em;
+    padding: 0.2em 0.5em;
 }
