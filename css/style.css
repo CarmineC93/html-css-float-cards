@@ -17,7 +17,7 @@ html{
 .container{
     width: 100%;
     max-width: 1200px;
-    margin: auto;
+    margin: auto; /*andava bene anche margin: 0 auto;   */
     padding: 2rem;
 }
 
@@ -45,9 +45,9 @@ html{
     
 }
 
-/* to delete margin rx sx in the gallery*/
+
 .col:nth-of-type(3n+3){
-    margin-right: 0;
+    margin-right: 0;            /* to delete margin rx&sx in the gallery*/
 }
 
 .col:nth-of-type(3n+1){
@@ -64,14 +64,14 @@ html{
     background-color: #0F0E17;
     color: white;
     margin: 20px 20px;
-    width: calc(100% / 3 - 27px); /* importanti gli spazi tra operatore e numeri */
-    float: left; 
+    width: calc(100% / 3 - 27px);  /* importanti gli spazi tra operatore e numeri */
+    float: left;                   
     box-shadow: 5px 5px 5px #cfc6c6;
 
 } 
 
 .col img{
-    width: 90px;
+    width: 90px;  /* in percentuale sarebbe più responsive  */
     vertical-align: bottom; /* così l'img riempie tutto il div  */
 }
 
